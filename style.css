@@ -13,7 +13,7 @@
   border-radius: 50px;
   cursor: pointer;
   margin: 200px auto;
-  transition: background-color 0.7s, color 0.7s;
+  transition: background-color 0.5s, color 0.5s;
 }
 
 #parent:hover {
@@ -30,7 +30,7 @@
   height: 40px;
   width: 40px;
   border-radius: 50%;
-  transition: transform 0.7s, background-color 0.7s;
+  transition: transform 0.5s, background-color 0.5s;
   position: absolute;
   left: 0;
 }
@@ -48,7 +48,7 @@
 
 .text {
   font-weight: 600;
-  transition: color 0.7s, transform 0.7s;
+  transition: color 0.5s, transform 0.5s;
 }
 
 #parent:hover .text {
